@@ -1,0 +1,25 @@
+.dp{
+    width: 35vw;
+    height: 35vw;
+    border-radius: 50%;
+    max-width: 120px;
+    max-height: 120px;
+    border: 0px solid black;
+}
+.App {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .crop-container {
+    max-width: 120px;
+    max-height: 120px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 100px;
+  }

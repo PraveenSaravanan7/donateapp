@@ -1,0 +1,56 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 99;
+    background-color: white;
+    width: 100vw;
+    max-width: 680px;
+}
+.logo{
+    font-size: 1.9em;
+    font-weight: bold;
+    font-family: 'Viga', sans-serif;
+}
+.headtwo{
+    font-size: 1.5em;
+    font-weight: bolder;
+    
+}
+.add-btn{
+    z-index: 99 !important;
+    height: 60px;
+    width: 60px;
+    border-radius: 15px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    box-shadow: 0 4px 14px 0 rgba(0,0,0,0.1);
+    background-color: #ffffff;
+}
+.add-icon{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+  
+}
+.togglerbg{
+    padding: 5px;
+    border-radius: 100px;
+    display: inline-block;
+}
+.filterbtnbg{
+    padding: 5px;
+    border-radius: 100px;
+    display: inline-block;
+    float: right;
+}
+.filterdiv{
+    border-radius: 1.5em;
+    box-shadow: 0 0px 0px 1px rgba(0,0,0,0.05);
+    padding: 15px;
+    margin-bottom: 0.5cm;
+}

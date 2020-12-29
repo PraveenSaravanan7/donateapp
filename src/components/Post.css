@@ -1,0 +1,23 @@
+.post-div{
+    border-radius: 1.5em;
+    box-shadow: 0 0px 0px 1px rgba(0,0,0,0.05);
+    padding: 10px;
+    margin-bottom: 0.5cm;
+}
+.post-dp{
+    width: 1.2cm;
+    height: 1.2cm;
+    border-radius: 50%;
+}
+.post-pic{
+    width: 100%;
+    border-radius: 1.5em;
+    margin-top: 0.15cm;
+}
+.fs16{
+    font-size: 15px;
+}
+.contact-info{
+    border-radius: 1.5em;
+    box-shadow: 0 0px 0px 1px rgba(0,0,0,0.05);
+}
