@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/donateapp_frontend/static/css/main.8b6c8a91.chunk.css",
+    "main.js": "/donateapp_frontend/static/js/main.d184cbf3.chunk.js",
+    "main.js.map": "/donateapp_frontend/static/js/main.d184cbf3.chunk.js.map",
+    "runtime-main.js": "/donateapp_frontend/static/js/runtime-main.5eaed69d.js",
+    "runtime-main.js.map": "/donateapp_frontend/static/js/runtime-main.5eaed69d.js.map",
+    "static/css/2.5f80191f.chunk.css": "/donateapp_frontend/static/css/2.5f80191f.chunk.css",
+    "static/js/2.03f5998a.chunk.js": "/donateapp_frontend/static/js/2.03f5998a.chunk.js",
+    "static/js/2.03f5998a.chunk.js.map": "/donateapp_frontend/static/js/2.03f5998a.chunk.js.map",
+    "index.html": "/donateapp_frontend/index.html",
+    "static/css/2.5f80191f.chunk.css.map": "/donateapp_frontend/static/css/2.5f80191f.chunk.css.map",
+    "static/css/main.8b6c8a91.chunk.css.map": "/donateapp_frontend/static/css/main.8b6c8a91.chunk.css.map",
+    "static/js/2.03f5998a.chunk.js.LICENSE.txt": "/donateapp_frontend/static/js/2.03f5998a.chunk.js.LICENSE.txt",
+    "static/media/user.05d0404a.png": "/donateapp_frontend/static/media/user.05d0404a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5eaed69d.js",
+    "static/css/2.5f80191f.chunk.css",
+    "static/js/2.03f5998a.chunk.js",
+    "static/css/main.8b6c8a91.chunk.css",
+    "static/js/main.d184cbf3.chunk.js"
+  ]
+}
