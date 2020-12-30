@@ -90,3 +90,6 @@ a{
 .Toastify__toast-body{
   font-weight: bold !important;
 }
+.Toastify__toast--info{
+  background-color: #007bff !important;
+}

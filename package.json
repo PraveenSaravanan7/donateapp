@@ -12,6 +12,7 @@
     "bootstrap": "^4.5.3",
     "browser-image-compression": "^1.0.13",
     "city-state-country": "^1.0.3",
+    "clipboard-copy": "^4.0.1",
     "data-uri-to-blob": "0.0.4",
     "data-uri-to-file": "^0.1.8",
     "dataurl-to-blob": "0.0.1",

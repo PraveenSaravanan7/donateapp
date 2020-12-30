@@ -99,7 +99,7 @@ export const ProfilePage = ({match}) => {
             {!stopfetch &&
             <InView as="div" onChange={(inView, entry) =>{if(inView){Getposts()}}}>
              <div className="container mb-4 text-center"  >
-              <button className=" btn btn-light " ><div className="spinner-border text-dark" role="status"  ></div> </button>
+              <div className="spinner-border text-primary" role="status"  ></div> 
               </div>
               </InView>}
           </div>

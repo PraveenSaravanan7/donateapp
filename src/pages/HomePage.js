@@ -86,8 +86,7 @@ export const HomePage = () => {
               { tab1post.map((post)=> <Post key={post._id} data={post} setcopied={setcopied} ></Post> )  }
           {!stopfetch1 &&
             <InView as="div" onChange={(inView, entry) =>{if(inView){Getposts()}}}>
-             <div className="container mb-4 text-center"  >
-              <button className=" btn btn-light " ><div className="spinner-border text-dark" role="status"  ></div> </button>
+             <div className="container mb-4 text-center"  ><div className="spinner-border text-primary" role="status"  ></div>
               </div>
               </InView>}
             </div>
@@ -96,8 +95,7 @@ export const HomePage = () => {
               { tab2post.map((post)=> <Post key={post._id} data={post}  setcopied={setcopied} ></Post> )  }
           {!stopfetch2 &&
             <InView as="div" onChange={(inView, entry) =>{if(inView){Getposts()}}}>
-             <div className="container mb-4 text-center"  >
-              <button className=" btn btn-light " ><div className="spinner-border text-dark" role="status"  ></div> </button>
+             <div className="container mb-4 text-center"  ><div className="spinner-border text-primary" role="status"  ></div> 
               </div>
               </InView>}
             </div>

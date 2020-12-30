@@ -2,20 +2,22 @@ import React, { useState } from 'react'
 import "./Post.css";
 import FeatherIcon from "feather-icons-react";
 import { Link } from 'react-router-dom';
-
+const copy = require('clipboard-copy')
+ 
 export const Post = ({data,setcopied,fullview}) => {
     var [showcontact,setshowcontact]=useState(false)
     function copylink(){
         if(window.location.port){
         var text=window.location.hostname+":"+window.location.port+"/post/"+data._id}
         else{
-        var text=window.location.hostname+"/post/"+data._id}
-        var input=document.querySelector("#forcopytext")
-        input.value=text
-        console.log(input.value)
-        input.select()
-        document.execCommand("copy")
-        setcopied(input.value)
+        var text=window.location.hostname+"#/post/"+data._id}
+        // var input=document.querySelector("#forcopytext")
+        // input.value=text
+        // console.log(input.value)
+        // input.select()
+        // document.execCommand("copy")
+        copy(text)
+        setcopied(text)
         //console.log(text)
     }
     return (
@@ -40,7 +42,7 @@ export const Post = ({data,setcopied,fullview}) => {
         <>
           { data.photo &&  <img src={data.photo} className="post-pic" />}
           <div>
-          {data.title && <span className="d-inline-block  h4 font-weight-bold mt-2 mb-0 text-black"  > {data.title}</span> }
+          {data.title && <span className="d-inline-block  h4 font-weight-bold mt-2 mb-0 text-black"  > {data.title}</span> }<br></br>
           {data.description && <span className="d-inline-block text-muted font-weight-bold"  > {data.description}</span> }
           </div>
          </>
