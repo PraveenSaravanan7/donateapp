@@ -13,9 +13,9 @@ export const Header = (props) => {
             <Link to={"/profile/me"}>
             <FeatherIcon icon="user"  className="icon mr-4" ></FeatherIcon>
             </Link>
-            
+            <Link to={"/notification"}>
             <FeatherIcon icon="bell" className="icon mr-4" ></FeatherIcon>
-            
+            </Link>
             <Link to={"/settings"}>
             <FeatherIcon icon="settings" className="icon" ></FeatherIcon>
             </Link>
@@ -33,9 +33,11 @@ export const Header = (props) => {
                 <button className={props.type=="requirement"?" btn btn-sm  btn-primary":" btn btn-sm  btn-light" }  onClick={()=>props.settype("requirement")} >Requirements</button>
                 <button  className={props.type!="requirement"?" btn btn-sm ml-2 btn-primary":" btn btn-sm ml-2  btn-light" } onClick={()=>props.settype("donation")} >Donation</button>
                 </div>
+                <Link to={"/filter"} >
                 <div className="filterbtnbg bg-light" >
                 <button className="btn btn-sm btn-light  " >  Filter</button>
                 </div>
+                </Link>
             </div>
             {/* <div className="filterdiv mt-3" ><h3> Apply Filter</h3>
             <div class="form-check mb-2">

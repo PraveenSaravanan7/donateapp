@@ -30,7 +30,15 @@ export const Post = ({data,setcopied,fullview}) => {
             </span>
             </Link>
            
-            <FeatherIcon icon="chevron-down" className="float-right mt-2"  ></FeatherIcon>
+          
+            <div class="dropdown float-right">
+  <button className="btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <FeatherIcon icon="chevron-down"   ></FeatherIcon>
+  </button>
+  <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a className="dropdown-item text-danger" >Delete</a>
+  </div>
+</div>
             { !fullview?  <Link to={"/post/"+data._id} >
            { data.photo &&  <img src={data.photo} className="post-pic" />}
            <div>
