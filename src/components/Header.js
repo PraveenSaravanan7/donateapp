@@ -16,8 +16,9 @@ export const Header = (props) => {
             
             <FeatherIcon icon="bell" className="icon mr-4" ></FeatherIcon>
             
-
+            <Link to={"/settings"}>
             <FeatherIcon icon="settings" className="icon" ></FeatherIcon>
+            </Link>
             </span>:
              <span className="float-right" >
              <FeatherIcon icon="info"  className="icon" ></FeatherIcon>

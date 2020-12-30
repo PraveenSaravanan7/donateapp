@@ -106,6 +106,10 @@ export const SignupPage = () => {
 </form>
 <br></br>
 <span className="text-muted" onClick={gotologin}><b>Already have an account? <a>LogIn</a> </b></span>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
             </div>
         </div>
     )

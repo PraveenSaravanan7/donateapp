@@ -9,6 +9,7 @@ import {SignupPage} from './pages/SignupPage'
 import {EditProfile} from './pages/EditProfile'
 import { AddPost } from "./pages/AddPost";
 import { PostPage } from "./pages/PostPage";
+import { SettingsPage } from "./pages/SettingsPage";
 const ls=require("local-storage")
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
     <Route exact path="/login" component={LoginPage}></Route>
     <Route exact path="/signup" component={SignupPage}></Route>
     <Route exact path="/addpost" component={AddPost}></Route>
+    <Route exact path="/settings" component={SettingsPage}></Route>
     </CacheSwitch>
     </div>
   );

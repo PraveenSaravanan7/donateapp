@@ -61,17 +61,19 @@ export const Post = ({data,setcopied,fullview}) => {
 
            <div className="row text-primary mt-3 fs16 " >
                <div className="col text-center px-0" onClick={()=>setshowcontact(true)} >
-                   <span><b>
+                   <span unselectable="on"><b>
                    <FeatherIcon  icon="phone" size={15} ></FeatherIcon> Contact
                    </b></span>
                </div>
+               <Link to={"/post/"+data._id} >
                <div className="col text-center px-0"  >
-                   <span><b>
+                   <span unselectable="on" ><b>
                    <FeatherIcon  icon="message-circle" size={15} ></FeatherIcon> Comment
                    </b></span>
-               </div>              
+               </div>      
+                </Link>  
                <div className="col text-center px-0" onClick={()=>{copylink()}} >
-                   <span><b>
+                   <span unselectable="on"><b>
                    <FeatherIcon  icon="share-2" size={15} ></FeatherIcon> Share
                    </b></span>
               

@@ -40,7 +40,7 @@ export const LoginPage = () => {
           if(data.accessToken){
           ls("accessToken",data.accessToken);
           ls("user_id",data.user_id);
-          history.replace('/#/')
+          history.replace('/')
           }
         })
     }
