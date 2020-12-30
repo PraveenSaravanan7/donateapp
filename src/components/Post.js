@@ -80,7 +80,7 @@ export const Post = ({data,setcopied,fullview}) => {
                    </b></span>
                </div>      
                 </Link>  
-            <div className="col text-center px-0 unselectable" onClick={()=>{copylink()}} >
+            <div className="col text-center px-0 unselectable" onClick={()=>{ ()=> copylink()}} >
                    <span ><b>
                    <FeatherIcon  icon="share-2" size={15} ></FeatherIcon> Share
                    </b></span>
