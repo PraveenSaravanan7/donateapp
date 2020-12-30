@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/donateapp_frontend/static/css/main.107a469c.chunk.css",
-    "main.js": "/donateapp_frontend/static/js/main.6c70dedd.chunk.js",
-    "main.js.map": "/donateapp_frontend/static/js/main.6c70dedd.chunk.js.map",
+    "main.js": "/donateapp_frontend/static/js/main.2b420d7d.chunk.js",
+    "main.js.map": "/donateapp_frontend/static/js/main.2b420d7d.chunk.js.map",
     "runtime-main.js": "/donateapp_frontend/static/js/runtime-main.5eaed69d.js",
     "runtime-main.js.map": "/donateapp_frontend/static/js/runtime-main.5eaed69d.js.map",
     "static/css/2.5f80191f.chunk.css": "/donateapp_frontend/static/css/2.5f80191f.chunk.css",
-    "static/js/2.e3e9ade3.chunk.js": "/donateapp_frontend/static/js/2.e3e9ade3.chunk.js",
-    "static/js/2.e3e9ade3.chunk.js.map": "/donateapp_frontend/static/js/2.e3e9ade3.chunk.js.map",
+    "static/js/2.b8194dc4.chunk.js": "/donateapp_frontend/static/js/2.b8194dc4.chunk.js",
+    "static/js/2.b8194dc4.chunk.js.map": "/donateapp_frontend/static/js/2.b8194dc4.chunk.js.map",
     "index.html": "/donateapp_frontend/index.html",
     "static/css/2.5f80191f.chunk.css.map": "/donateapp_frontend/static/css/2.5f80191f.chunk.css.map",
     "static/css/main.107a469c.chunk.css.map": "/donateapp_frontend/static/css/main.107a469c.chunk.css.map",
-    "static/js/2.e3e9ade3.chunk.js.LICENSE.txt": "/donateapp_frontend/static/js/2.e3e9ade3.chunk.js.LICENSE.txt",
+    "static/js/2.b8194dc4.chunk.js.LICENSE.txt": "/donateapp_frontend/static/js/2.b8194dc4.chunk.js.LICENSE.txt",
     "static/media/user.05d0404a.png": "/donateapp_frontend/static/media/user.05d0404a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.5eaed69d.js",
     "static/css/2.5f80191f.chunk.css",
-    "static/js/2.e3e9ade3.chunk.js",
+    "static/js/2.b8194dc4.chunk.js",
     "static/css/main.107a469c.chunk.css",
-    "static/js/main.6c70dedd.chunk.js"
+    "static/js/main.2b420d7d.chunk.js"
   ]
 }
