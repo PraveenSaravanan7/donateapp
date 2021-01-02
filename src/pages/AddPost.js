@@ -166,7 +166,7 @@ export const AddPost = () => {
  {loadingpreview? <>Loading...</>:<><FeatherIcon icon="image" ></FeatherIcon> Add Photo</>} </button>
 
 {err &&
-  <span className="text-danger font-weight-bold">Error: {err} <br/></span>
+  <span className="text-danger font-weight-bold">Error <br/></span>
 }
 
 <button  onClick={()=>{document.getElementById('submitpost').click()}}  className="mt-3 btn  btn-primary">
