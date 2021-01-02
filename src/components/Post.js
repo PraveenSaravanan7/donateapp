@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import userdp from '../assets/images/user.png'
 import "./Post.css";
 import FeatherIcon from "feather-icons-react";
 import { Link } from 'react-router-dom';
@@ -40,7 +41,7 @@ export const Post = ({data,setcopied,fullview}) => {
            
             <Link to={"/profile/"+data.userid._id} >
             <span className="h5 d-inline-block text-truncate m-0 truncate2 text-black" >
-            <img src={data.userid.profilepic} className="post-dp mr-2 "  />
+            <img src={data.userid.profilepic?data.userid.profilepic:userdp} className="post-dp mr-2 "  />
             <b> {data.userid.name}</b>        
             </span>
             </Link>
