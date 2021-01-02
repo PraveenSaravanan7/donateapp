@@ -25,7 +25,6 @@ export const AddPost = () => {
          try {           
            const response = await axios.post('/posts',formData_form);         
            if(response){
-
              setloading(false)
             setpostsuccess(true)
             window.scrollTo(0, 0)
@@ -167,7 +166,7 @@ export const AddPost = () => {
  {loadingpreview? <>Loading...</>:<><FeatherIcon icon="image" ></FeatherIcon> Add Photo</>} </button>
 
 {err &&
-  <span className="text-danger font-weight-bold">Error. <br/></span>
+  <span className="text-danger font-weight-bold">Error: {err} <br/></span>
 }
 
 <button  onClick={()=>{document.getElementById('submitpost').click()}}  className="mt-3 btn  btn-primary">
