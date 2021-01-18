@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/donateapp_frontend/static/css/main.e59d6699.chunk.css",
-    "main.js": "/donateapp_frontend/static/js/main.2b5d4610.chunk.js",
-    "main.js.map": "/donateapp_frontend/static/js/main.2b5d4610.chunk.js.map",
+    "main.css": "/donateapp_frontend/static/css/main.d94d4ad8.chunk.css",
+    "main.js": "/donateapp_frontend/static/js/main.3f201adf.chunk.js",
+    "main.js.map": "/donateapp_frontend/static/js/main.3f201adf.chunk.js.map",
     "runtime-main.js": "/donateapp_frontend/static/js/runtime-main.5eaed69d.js",
     "runtime-main.js.map": "/donateapp_frontend/static/js/runtime-main.5eaed69d.js.map",
     "static/css/2.5f80191f.chunk.css": "/donateapp_frontend/static/css/2.5f80191f.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.bb01bcdb.chunk.js.map": "/donateapp_frontend/static/js/2.bb01bcdb.chunk.js.map",
     "index.html": "/donateapp_frontend/index.html",
     "static/css/2.5f80191f.chunk.css.map": "/donateapp_frontend/static/css/2.5f80191f.chunk.css.map",
-    "static/css/main.e59d6699.chunk.css.map": "/donateapp_frontend/static/css/main.e59d6699.chunk.css.map",
+    "static/css/main.d94d4ad8.chunk.css.map": "/donateapp_frontend/static/css/main.d94d4ad8.chunk.css.map",
     "static/js/2.bb01bcdb.chunk.js.LICENSE.txt": "/donateapp_frontend/static/js/2.bb01bcdb.chunk.js.LICENSE.txt",
     "static/media/user.05d0404a.png": "/donateapp_frontend/static/media/user.05d0404a.png"
   },
@@ -18,7 +18,7 @@
     "static/js/runtime-main.5eaed69d.js",
     "static/css/2.5f80191f.chunk.css",
     "static/js/2.bb01bcdb.chunk.js",
-    "static/css/main.e59d6699.chunk.css",
-    "static/js/main.2b5d4610.chunk.js"
+    "static/css/main.d94d4ad8.chunk.css",
+    "static/js/main.3f201adf.chunk.js"
   ]
 }
