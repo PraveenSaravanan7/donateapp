@@ -13,6 +13,7 @@ import { SettingsPage } from "./pages/SettingsPage";
 import { NotificationPage } from "./pages/NotificationPage";
 import {FilterPage} from "./pages/FilterPage";
 const ls=require("local-storage")
+
 function App() {
   return (
     <div className="app-div m-auto">

@@ -37,7 +37,7 @@ export const Post = ({data,setcopied,fullview}) => {
       }
     return (<>
     {!deleted &&
-        <div className="post-div" >
+        <div className="post-div shadow-sm" >
            
             <Link to={"/profile/"+data.userid._id} >
             <span className="h5 d-inline-block text-truncate m-0 truncate2 text-black" >
@@ -61,8 +61,8 @@ export const Post = ({data,setcopied,fullview}) => {
             { !fullview?  <Link to={"/post/"+data._id} >
            { data.photo &&  <img src={data.photo} className="post-pic" />}
            <div>
-           {data.title && <span className="d-inline-block text-truncate h4 font-weight-bold mt-2 truncate mb-0 text-black"  > {data.title}</span> }
-           {data.description && <span className="d-inline-block text-truncate truncate text-muted"  > {data.description}</span> }
+           {data.title && <span className="d-inline-block text-truncate h5 font-weight-bold mt-2 truncate mb-0 text-black"  > {data.title}</span> }
+           {data.description && <span className="d-inline-block text-truncate truncate text-muted text-small"  > {data.description}</span> }
            </div>
             </Link>
           :

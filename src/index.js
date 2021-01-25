@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import './Bootstraps-custom.scss';
 import 'jquery/dist/jquery.slim'
 import 'bootstrap/dist/js/bootstrap';
 import './index.css';
